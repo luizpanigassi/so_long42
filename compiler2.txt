@@ -1,0 +1,1 @@
+cc -g3 -o testing2 test2_map.c test2_main.c test2_hooks.c test2_validators.c libft/*.c -Imlx -Ilibft -Lmlx -lmlx -lXext -lX11 -lm
