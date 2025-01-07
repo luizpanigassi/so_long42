@@ -6,7 +6,7 @@
 /*   By: luinasci <luinasci@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 15:33:24 by luinasci          #+#    #+#             */
-/*   Updated: 2025/01/02 19:18:12 by luinasci         ###   ########.fr       */
+/*   Updated: 2025/01/07 17:03:08 by luinasci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,6 +85,7 @@ int		ft_validate_walls(t_data *data);
 int		ft_validate_rectangle(t_data *data);
 int		ft_validate_collectibles(t_data *data);
 int		ft_validate_player(t_data *data);
+int		ft_validate_map_characters(char **map);
 int		ft_strcmp(const char *s1, const char *s2);
 void	ft_flood_fill(char **map, int x, int y, int height);
 int		ft_validate_exit(t_data *data);

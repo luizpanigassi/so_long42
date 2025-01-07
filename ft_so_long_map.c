@@ -6,7 +6,7 @@
 /*   By: luinasci <luinasci@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/02 17:49:53 by luinasci          #+#    #+#             */
-/*   Updated: 2025/01/02 19:05:25 by luinasci         ###   ########.fr       */
+/*   Updated: 2025/01/07 17:04:19 by luinasci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,5 +79,10 @@ int	ft_read_map(t_data *data, int fd)
 	}
 	data->map[data->map_height] = NULL;
 	close(fd);
+	if (!ft_validate_map_characters(data->map))
+	{
+		ft_free_map(data->map, data->map_height);
+		return (0);
+	}
 	return (1);
 }
