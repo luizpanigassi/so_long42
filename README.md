@@ -1,6 +1,6 @@
 # so_long
 
-A nice little mini-mini-game using MinilibX! It was fun developing it, for sure. As a gamer, anything related to games is a win in my book. So, for this one, MinilibX is a pre-made library to create windows and print sprites on it. It was a bit of a challenge to work with it, considering I had to learn a whole new library of functions, but that's ok, it's for the greater good.
+...and thanks for all the fish! A nice little mini-mini-game using MinilibX! It was fun developing it, for sure. As a gamer, anything related to games is a win in my book. So, for this one, MinilibX is a pre-made library to create windows and print sprites on it. It was a bit of a challenge to work with it, considering I had to learn a whole new library of functions, but that's ok, it's for the greater good.
 
 ## Overview
 
